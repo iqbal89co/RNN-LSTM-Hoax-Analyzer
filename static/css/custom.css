@@ -1,0 +1,26 @@
+.image-load {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image-load img {
+    height: 100px;
+    width: 100px;
+    transform:scale(200%);
+}
+.grafik {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.grafik-item {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
